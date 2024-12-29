@@ -1,0 +1,1 @@
+This example demonstrates a common misunderstanding with mutable variables in F#.  When passing mutable variables to a function, the function operates on copies of the variables, not the original variables themselves. Therefore, the swap function does not modify the original x and y variables outside of its scope. The solution shows how to achieve the desired behavior.
